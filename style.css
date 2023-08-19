@@ -1,0 +1,25 @@
+/* body{
+    background-color: black;
+} */
+img{
+    height: 50vh;
+    width: 50vw;
+    background-color: black;
+    border-radius: 20px;
+}
+.holder{
+    width: 100vw;
+    display: flex;
+    margin: 2%;
+}
+
+.image{
+    flex: 1;
+}
+.post{
+    flex: 1;
+    padding: 2%;
+}
+a{
+    all: unset;
+}
