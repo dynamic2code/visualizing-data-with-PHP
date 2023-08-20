@@ -1,5 +1,14 @@
 body{
-
+    margin: 0;
+    padding: 0;
+}
+h1{
+    margin: 0;
+    padding: 0; 
+}
+center{
+    margin: 0;
+    padding: 0;
 }
 .top{
     height: 30vh;
@@ -7,12 +16,13 @@ body{
     align-items: center;
     background-color: rgb(2, 2, 2);
     color: rgb(240, 240, 240);
-    margin: 1%;
+    margin: 0;
+    padding: 0;
 }
 .big{
     font-size: large;
     font-weight: 600;
-    
+    margin: 0;  
 }
 img{
     height: 30vh;

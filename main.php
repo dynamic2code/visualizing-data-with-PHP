@@ -7,9 +7,6 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>     
-    
-<span></span>
-
     <?php
         // Fetch the JSON data
         $json_url = 'https://www.thebrand.ai/i/prompt/seo-strategy?mode=categoryView';
@@ -23,7 +20,7 @@
         $categoryKeywords = $category['keywords'];
         $categoryOrder = $category['category_order'];
         echo"<div class='top'>";
-        echo"<center><h3>Data visualization with php</h3></center>";
+        echo"<center><h1>Data visualization with php</h1></center>";
         // echo"<span>$category</span>";
         echo"<span class='big'> Category name: $categoryName  </span>";
         echo"<br>";
